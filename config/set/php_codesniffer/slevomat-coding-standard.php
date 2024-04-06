@@ -98,7 +98,6 @@ return static function (ECSConfig $ecsConfig): void {
     $ecsConfig->rule(\SlevomatCodingStandard\Sniffs\Arrays\TrailingArrayCommaSniff::class);
     $ecsConfig->rule(\SlevomatCodingStandard\Sniffs\Arrays\DisallowPartiallyKeyedSniff::class);
     $ecsConfig->rule(\SlevomatCodingStandard\Sniffs\Files\LineLengthSniff::class);
-    $ecsConfig->rule(\SlevomatCodingStandard\Sniffs\Files\FunctionLengthSniff::class);
     $ecsConfig->rule(\SlevomatCodingStandard\Sniffs\Files\FileLengthSniff::class);
     $ecsConfig->rule(\SlevomatCodingStandard\Sniffs\Files\TypeNameMatchesFileNameSniff::class);
     $ecsConfig->rule(\SlevomatCodingStandard\Sniffs\Functions\StrictCallSniff::class);
